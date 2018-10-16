@@ -39,6 +39,7 @@ Podatki komentarjev
 ## Upravljanje uporabniških profilov
 ### Entitete
 * User
+?
 ### Endpoints
 
 
@@ -55,8 +56,18 @@ Podatki komentarjev
 						kategorije itd,...
 
 
-
-
 # upravljanjanje s komentarji
+### Entitete
+* Komentar
+
 # sporočilni sistem
+### Entitete
+* Sporočilo
+* (User) -> Kdo pošilja sporočilo / Komu je namenjeno sporočilo
+
 # urejanje slik?
+### Entitete
+* Kdo ureja
+* Katero sliko ureja
+* Pošlji sporočilo o urejanju
+* ?
