@@ -47,6 +47,8 @@ Podatki komentarjev
 * Album
 * Slika
 * (User) -> Retrieve from users service?
+* Kategorija
+			
 			entitea album, album inma več slik
 				podatki o sliki
 					kdo jo uploada 
@@ -57,3 +59,4 @@ Podatki komentarjev
 
 # upravljanjanje s komentarji
 # sporočilni sistem
+# urejanje slik?
