@@ -19,7 +19,7 @@
 * poslji_sporocilo() - uporabiki si lahko med seboj pošiljajo sporočila
 * pridobi_sporočila() - klic za prejem sporočil določenega pogovora
 
-##Podatkovne entitete
+## Podatkovne entitete
 
 ### Users
 Podatki uporabnika
