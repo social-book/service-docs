@@ -32,3 +32,10 @@ Podatki objav
 
 ### Comments
 Podatki komentarjev
+
+# Services 
+
+# upravaljanje upor. profilov
+# katalog slik
+# upravljanjanje s komentarji
+# sporočilni sistem
