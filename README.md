@@ -3,18 +3,18 @@
 ## Mikroservisi
 
 ### uporabnik
--registriraj_uporabnika()
--prijava_uporabnika()
+* registriraj_uporabnika()
+* prijava_uporabnika()
 
 ### Objave
--objavi()
--zbrisiObjavo()
+* objavi()
+* zbrisiObjavo()
 
 ### Upravljanje komentarjev
--komentirajObjavo()
--izbrišiKomentar()
--vseckaj()
+* komentirajObjavo()
+* izbrišiKomentar()
+* vseckaj()
 
 ### Sporočilni sistem
--poslji_sporocilo()
--pridobi_sporočila()
+* poslji_sporocilo()
+* pridobi_sporočila()
