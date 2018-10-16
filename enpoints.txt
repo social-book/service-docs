@@ -1,21 +1,23 @@
 default prefix -> /hostname:8888/
 
 UPORABNIK
-POST /user/register
-POST /user/login
+POST /user/register -> register user
+POST /user/login -> authentication
+GET /user/ -> get all users
+GET /user/userId -> get specific user
+GET /user/friends -> get friends of a user
 
-OBJAVE
-POST /posts/
-GET  /posts/
-GET  /posts/{postId}
+UPRAVLJANJE SLIK
+POST /album/?user_id=...  -> post an album by a specific user
+GET  /album/?filter=...(filter is optional, also not sure if will be needed to implement) -> get all albums
+GET  /album/{albumId} -> get specific album
 
 UPRAVLJANJE komentarjev
-POST /comments/
-GET  /comments/?postID=...
-GET  /comments/commentId
-DELETE /comments/commentId
-POST /comments/like
+POST /comments/?user_id=... -> post a comment
+GET  /comments/?albumId=... -> get comments for specific album
+GET  /comments/{commentId} -> get specific comment [probably not needed]
+DELETE /comments/{commentId} -> delete specific comment
+??????????POST /comments/like [currently not supported]
 
 SPOROČILNI SISTEM
-POST /messaging/?userIdFrom=...,userIdTo=...
-GET /messaging/?userId=...
+GET /notifications/{userId} -> get notification for specific user
