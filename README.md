@@ -1,6 +1,6 @@
 # Social book
 
-## Mikroservisi
+## Abstract Mikroservisi
 
 ### uporabnik
 * registriraj_uporabnika() - uporabnik se bo preko vmesnika lahko registriral
@@ -33,9 +33,27 @@ Podatki objav
 ### Comments
 Podatki komentarjev
 
-# Services 
 
-# upravaljanje upor. profilov
-# katalog slik
+
+# Actual services 
+## Upravljanje uporabniških profilov
+### Entitete
+* User
+### Endpoints
+
+
+## Katalog slik
+### Entitete
+* Album
+* Slika
+* (User) -> Retrieve from users service?
+			entitea album, album inma več slik
+				podatki o sliki
+					kdo jo uploada 
+						kategorije itd,...
+
+
+
+
 # upravljanjanje s komentarji
 # sporočilni sistem
