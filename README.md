@@ -71,3 +71,5 @@ Podatki komentarjev
 * Katero sliko ureja
 * Pošlji sporočilo o urejanju
 * ?
+
+![alt text](https://raw.githubusercontent.com/social-book/service-docs/master/Social%20Book.png)
