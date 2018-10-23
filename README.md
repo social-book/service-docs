@@ -35,7 +35,7 @@ Podatki komentarjev
 
 
 
-# Actual services 
+# Actual services
 ## Upravljanje uporabniških profilov
 ### Entitete
 * User
@@ -49,10 +49,10 @@ Podatki komentarjev
 * Slika
 * (User) -> Retrieve from users service?
 * Kategorija
-			
+
 			entitea album, album inma več slik
 				podatki o sliki
-					kdo jo uploada 
+					kdo jo uploada
 						kategorije itd,...
 
 
@@ -75,7 +75,7 @@ Podatki komentarjev
 # Diagrami
 
 ## Diagram povezav med servisi
-![alt text](.png)
+![alt text](https://raw.githubusercontent.com/social-book/service-docs/master/services.png)
 
 ## Diagram entitet (v0.1)
 ![alt text](https://raw.githubusercontent.com/social-book/service-docs/master/Social%20Book.png)
