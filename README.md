@@ -72,6 +72,42 @@ Podatki komentarjev
 * Pošlji sporočilo o urejanju
 * ?
 
+# primeri sporočil
+## pridobi seznam uporabnikov
+### endpoint
+GET	{URL}/user/
+### Response
+[
+  {
+    "userId": 1,
+    "name": "Miha",
+    "surname": "Stele",
+    "imgref": "https://yt3.ggpht.com/a-/AN66SAzNhh8W59TE7Sr71gmJxt8r44FmtXlokJJkfQ=s900-mo-c-c0xffffffff-rj-k-no",
+    "username": "mihastele",
+    "password": "e1e91f36d2440c01ca7a97fefb416980"
+  },
+  {
+    "userId": 2,
+    "name": "Nejc",
+    "surname": "Ribic",
+    "username": "user_nrbibic",
+    "password": "fcb65e884890ef14cf50b8c427f63b1e"
+  },
+  {
+    "userId": 3,
+    "name": "User",
+    "surname": "Gpor",
+    "username": "user_gpor",
+    "password": "f711eca236eba5b6dea0ae20c991cd0d"
+  },
+  {
+    "userId": 4,
+    "name": "Ok",
+    "surname": "Afk",
+    "username": "ok",
+    "password": "2497862a6844efa42a1d1f483426af73"
+  }
+]
 # Diagrami
 
 ## Diagram povezav med servisi
