@@ -72,4 +72,10 @@ Podatki komentarjev
 * Pošlji sporočilo o urejanju
 * ?
 
+# Diagrami
+
+## Diagram povezav med servisi
+![alt text](.png)
+
+## Diagram entitet (v0.1)
 ![alt text](https://raw.githubusercontent.com/social-book/service-docs/master/Social%20Book.png)
