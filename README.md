@@ -108,6 +108,22 @@ GET	{URL}/user/
 	    "password": "2497862a6844efa42a1d1f483426af73"
 	  }
 	]
+
+## pridobi podatke albumih
+### endpoint
+
+GET	{URL}/statistics/albums
+
+#### pokliče
+
+GET	{URL}/user/   -> pridobi vse uporabnike
+
+GET	{URL}/album   -> pridobi vs albume
+
+### Response
+
+{JSON objekt z obdelano statistiko}
+
 # Diagrami
 
 ## Diagram povezav med servisi
