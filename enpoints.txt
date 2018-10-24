@@ -4,16 +4,16 @@ UPORABNIK
 POST /user/register -> register user
 POST /user/login -> authentication
 GET /user/ -> get all users
-GET /user/userId -> get specific user
-GET /user/friends -> get friends of a user
+GET /user/{userId} -> get specific user
+GET /user/{userId}/friends -> get friends of a user
 
 UPRAVLJANJE SLIK
-POST /album/?user_id=...  -> post an album by a specific user
+POST /album/{userId}/add/  body -> name:%album_name% data:[%base64_strings_of_images_contained_by_album%]  -> post an album by a specific user
 GET  /album/?filter=...(filter is optional, also not sure if will be needed to implement) -> get all albums
 GET  /album/{albumId} -> get specific album
 
 UPRAVLJANJE komentarjev
-POST /comments/?user_id=... -> post a comment
+POST /comments/ albumId:%album_id% data:%comment%    -> post a comment
 GET  /comments/?albumId=... -> get comments for specific album
 GET  /comments/{commentId} -> get specific comment [probably not needed]
 DELETE /comments/{commentId} -> delete specific comment
