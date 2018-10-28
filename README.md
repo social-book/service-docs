@@ -139,3 +139,7 @@ GET	{URL}/album   -> pridobi vs albume
 	docker pull 40850473/service-catalog:0.0.3
 	docker run 40850473/service-catalog:0.0.3
 
+## Stop all docker containers
+	sudo docker stop $(sudo docker ps -a -q)
+
+	
