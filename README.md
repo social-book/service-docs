@@ -131,3 +131,11 @@ GET	{URL}/album   -> pridobi vs albume
 
 ## Diagram entitet (v0.1)
 ![alt text](https://raw.githubusercontent.com/social-book/service-docs/master/Social%20Book.png)
+
+# Docker
+
+## Run commands
+	docker run -d -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=nejc -p 5432:5432 postgres:10.5
+	docker pull 40850473/catalog-service:0.0.3
+	docker run 40850473/catalog-service:0.0.3
+
