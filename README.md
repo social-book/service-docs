@@ -136,6 +136,6 @@ GET	{URL}/album   -> pridobi vs albume
 
 ## Run commands
 	docker run -d -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=nejc -p 5432:5432 postgres:10.5
-	docker pull 40850473/catalog-service:0.0.3
-	docker run 40850473/catalog-service:0.0.3
+	docker pull 40850473/service-catalog:0.0.3
+	docker run 40850473/service-catalog:0.0.3
 
