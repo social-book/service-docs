@@ -21,3 +21,7 @@ DELETE /comments/{commentId} -> delete specific comment
 
 SPOROČILNI SISTEM
 GET /notifications/{userId} -> get notification for specific user
+
+
+UPLOAD IMAGE
+POST /images?albumId={album_id}&userId={user_id} -> in body must be image as binary
