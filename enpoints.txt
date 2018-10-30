@@ -15,7 +15,6 @@ POST /albums/ -> kreiranje novega albuma
 
 POST /album/{userId}/add/  body -> name:%album_name% data:[%base64_strings_of_images_contained_by_album%]  -> post an album by a specific user
 GET  /album/?filter=...(filter is optional, also not sure if will be needed to implement) -> get all albums
-GET  /album/{albumId} -> get specific album
 
 UPRAVLJANJE komentarjev
 POST /comments/ albumId:%album_id% data:%comment%    -> post a comment
