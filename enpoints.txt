@@ -8,6 +8,11 @@ GET /user/{userId} -> get specific user
 GET /user/{userId}/friends -> get friends of a user
 
 UPRAVLJANJE SLIK
+GET /albums -> vrne vse albume
+GET /albums/{userId} -> vrne albume od userja
+POST /albums/ -> kreiranje novega albuma
+
+
 POST /album/{userId}/add/  body -> name:%album_name% data:[%base64_strings_of_images_contained_by_album%]  -> post an album by a specific user
 GET  /album/?filter=...(filter is optional, also not sure if will be needed to implement) -> get all albums
 GET  /album/{albumId} -> get specific album
